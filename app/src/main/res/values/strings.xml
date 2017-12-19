@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Footprint</string>
+    <string name="login_text_email">Email:</string>
+    <string name="login_text_pwd">Password:</string>
+    <string name="login_text_login">Login</string>
+    <string name="login_text_noaccount">No account ?</string>
+    <string name="login_text_signup">SIGN UP</string>
+
+    <string name="register_text_email">Email:</string>
+    <string name="register_text_pwd">Password:</string>
+    <string name="register_text_pwd_confirm">Confirm Password:</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_list">List</string>
+    <string name="title_map">Map</string>
+    <string name="title_account">Account</string>
+
+    <string name="menu_add">ADD</string>
+
+
+    <!-- for request permission -->
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

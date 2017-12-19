@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bgWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_change_picture_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Change Profile Picture"/>
+
+    <Button
+        android:id="@+id/btn_change_nickname_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="2sp"
+        android:text="Change Nickname"/>
+
+    <Button
+        android:id="@+id/btn_cancel_picture_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="2sp"
+        android:text="Cancel" />
+
+
+
+</LinearLayout>

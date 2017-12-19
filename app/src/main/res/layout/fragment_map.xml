@@ -1,0 +1,47 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rutgers.footprint.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_addNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="32dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_edit"
+        app:backgroundTint="@color/orange"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/chocolate" />
+
+    <fragment
+        android:id="@+id/map_place_autocomplete_fragment"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/framechild"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_place_autocomplete_fragment"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
